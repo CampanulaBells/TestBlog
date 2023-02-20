@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 function Article() {
   const params = useParams();
   let [content, setContent] = useState("Loading content...")
-  let path_text = `/blogs/articles/${params.article_name}.md`
+  let path_text = `https://raw.githubusercontent.com/CampanulaBells/TestBlog/main/public/blogs/articles/${params.article_name}.md`
   fetch(path_text,{
     headers : { 
       'Content-Type': 'application/text',

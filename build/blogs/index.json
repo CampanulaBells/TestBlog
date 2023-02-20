@@ -1,0 +1,18 @@
+{
+  "articles":[
+    {
+      "title": "My first blog",
+      "reference": "test_file_1",
+      "date": "2023-02-11T10:30:00",
+      "tags": ["blog", "javascript", "dummy"]
+    }, 
+    {
+      "title": "My second blog",
+      "reference": "test_file_2",
+      "date": "2023-02-11T11:00:00",
+      "tags": ["blog", "javascript", "book"]
+    }
+
+  ]
+
+}

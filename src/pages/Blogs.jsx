@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 function Blogs() {
   let navigate = useNavigate()
   let [articles, setArticles] = useState([])
-  let index_json = "/blogs/index.json"
+  let index_json = "https://raw.githubusercontent.com/CampanulaBells/TestBlog/main/public/blogs/index.json"
   fetch(index_json,{
     headers : { 
       'Content-Type': 'application/json',
